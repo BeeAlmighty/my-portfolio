@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Cormorant+Upright:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+@theme {
+  --color-clifford: #da373d;
+  --font-roboto: "Roboto", sans-serif; 
+  --font-script: Great Vibes, cursive;
+  --font-Aboreto: 'Aboreto';
+  --font-CormorantU: 'Cormorant Upright';
+}
