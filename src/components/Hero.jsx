@@ -8,7 +8,7 @@ export const Hero = () => {
   return (
     <section className='py-[5rem] grid min-lg:grid-cols-2 min-lg:gap-[2rem] '>
       <div className='flex flex-col gap-[1.5rem]'>
-        <h1 className='text-[5rem] leading-[5rem]'>I'm <span className={`text-sky-500 text-shadow-lg ${isDark ? 'text-shadow-slate-100 ' : 'text-shadow-amber-600'}`}>Moses</span></h1>
+        <h1 className='text-[5rem] leading-[5rem]'>I'm <span className={`text-sky-500 text-shadow-lg ${isDark ? 'text-shadow-slate-100 ' : 'text-shadow-amber-600'}`}>Mose</span></h1>
         <h2 className='text-4xl'>
           a Front-end Web developer 
         </h2>
