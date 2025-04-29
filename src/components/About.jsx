@@ -3,7 +3,7 @@ import React from 'react'
 export const About = () => {
   return (
     <section id='about-me' className=' grid py-[4rem] gap-[3rem] min-lg:grid-cols-2'>
-      <img src="src/assets/images/about-7koHI_U1.svg" alt="about image" />
+      <img src="/images/about-7koHI_U1.svg" alt="about image" />
       <article className='flex flex-col gap-[1rem]'>
         <h2 className='text-[2rem] text-green-800 font-CormorantU uppercase font-extrabold'>
           About me

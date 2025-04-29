@@ -8,10 +8,10 @@ export const Projects = () => {
   return (
     <section id='projects' className='py-[4rem] flex flex-col gap-[2rem]'>
       <h2 className='text-[2rem] text-blue-400'>Projects</h2>
-      {/* <img src='src/assets/images/weatherApp.png' alt="" /> */}
+      {/* <img src='/images/weatherApp.png' alt="" /> */}
       <div className='grid gap-[2rem] min-lg:grid-cols-3 min-[700px]:grid-cols-2 m-auto'>
         <ProjectsDemo 
-          src='src/assets/images/weatherApp.png'
+          src='/images/weatherApp.png'
           projectName='Weather App'
           description='A weather web application that uses an open-source api to get the current web details of any location'
           languages='React, Tailwind, API, Axios'
@@ -19,7 +19,7 @@ export const Projects = () => {
           webLink='https://weather-app-react-seven-peach.vercel.app/'
         />
         <ProjectsDemo 
-          src='src/assets/images/quiz-app.png'
+          src='/images/quiz-app.png'
           projectName='Quiz App'
           description='A quiz app that tests your knowledge in different sports'
           languages='React, Tailwind, React Router'
@@ -27,7 +27,7 @@ export const Projects = () => {
           webLink='https://sports-quiz-app.vercel.app/'
         />
         <ProjectsDemo 
-          src='src/assets/images/tip-calculator.png'
+          src='/images/tip-calculator.png'
           projectName='Tip Calculator'
           description='A basic app that calculates how the bill and tip is shared amongst people'
           languages='HTML, CSS, JAVASCRIPT'
@@ -35,7 +35,7 @@ export const Projects = () => {
           webLink='https://tip-calculator-app-git-main-beealmightys-projects.vercel.app/'
         />
         <ProjectsDemo 
-          src='src/assets/images/ecommerce-page.png'
+          src='/images/ecommerce-page.png'
           projectName='E-commerce Product Page'
           description='A basic app that shows a product page and utilizes cart display and product display using light box'
           languages='HTML, CSS, JAVASCRIPT'

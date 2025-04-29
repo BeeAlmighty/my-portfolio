@@ -21,7 +21,13 @@ export const Hero = () => {
           
         </div>
       </div>
-      <img src="src/assets/images/hero-RufAmTht (1).svg" alt="hero-img" className='hidden min-lg:inline-grid'/>
+      <img src='/images/hero-RufAmTht (1).svg' alt="hero-img" className='hidden min-lg:inline-grid'/>
     </section>
   )
 }
+// Highly motivated and disciplined individual with little work experience but insane dedication and
+// obsession to be the best software engineer out there, currently seeking a junior front end developer
+// role with ample room to grow with skills like React Js and a minuscule backend experience I want to
+// help this company build aesthetically pleasing as well as functional and scalable web applications.
+// Motivated to learn, adapt, and contribute to front end development projects under the guidance of
+// experienced mentors.
