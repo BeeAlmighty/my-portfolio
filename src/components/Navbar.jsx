@@ -77,7 +77,9 @@ export const Navbar = () => {
             </ScrollLink>
           </li>
           <li className={`${isDark ? '' : 'text-white'} cursor-pointer border-b-2 py-[1rem] border-transparent hover:border-blue-400 ease-in duration-75 text-[1.1rem]`} onClick={handleCloseNav}>
-            Skills
+            <ScrollLink to="footer" smooth={true} duration={500} onClick={handleCloseNav}>
+              Skills
+            </ScrollLink>
           </li>
         </ul>
       </div>
