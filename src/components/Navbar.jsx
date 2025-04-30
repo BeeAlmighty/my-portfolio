@@ -57,7 +57,7 @@ export const Navbar = () => {
         </ul>
 
         {/* Mobile Navigation */}
-        <ul className={`fixed bg-black/40 top-0 h-full w-[90%] backdrop-blur-2xl py-[4rem] flex flex-col items-start px-[4rem] gap-[2rem] ${nav ? 'left-0 duration-500 ease-in-out' : 'left-[-100%] duration-300 ease-in-out'} min-md:w-[50%]`}>
+        <ul className={`fixed bg-black/40 top-0 h-full w-[90%] backdrop-blur-2xl py-[4rem] flex flex-col items-start px-[4rem] gap-[2rem] ${nav ? 'left-0 duration-500 ease-in-out' : 'left-[-100%] duration-300 ease-in-out'} min-md:w-[50%] z-20`}>
           <button className='self-end' onClick={handleCloseNav}>
             <FaWindowClose className='text-[2rem]  cursor-pointer mb-[2rem]' />
           </button>
