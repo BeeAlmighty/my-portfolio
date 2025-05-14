@@ -8,8 +8,15 @@ export const Projects = () => {
   return (
     <section id='projects' className='py-[4rem] flex flex-col gap-[2rem]'>
       <h2 className='text-[2rem] text-blue-400'>Projects</h2>
-      {/* <img src='/images/weatherApp.png' alt="" /> */}
       <div className='grid gap-[2rem] min-lg:grid-cols-3 min-[700px]:grid-cols-2 m-auto'>
+      <ProjectsDemo 
+          src='/images/ecommerce_project_image.png'
+          projectName='E-commerce app'
+          description='An online shopping platform that lets you add items to cart without processing payments yet'
+          languages='React, Tailwind, Axios, React Router, API'
+          ghLink='https://github.com/BeeAlmighty/eCommerce-app.git'
+          webLink='https://e-commerce-app-pi-rust.vercel.app/'
+        />
         <ProjectsDemo 
           src='/images/weatherApp.png'
           projectName='Weather App'
@@ -34,14 +41,6 @@ export const Projects = () => {
           ghLink='https://github.com/BeeAlmighty/Tip-calculator-App'
           webLink='https://tip-calculator-app-git-main-beealmightys-projects.vercel.app/'
         />
-        <ProjectsDemo 
-          src='/images/ecommerce-page.png'
-          projectName='E-commerce Product Page'
-          description='A basic app that shows a product page and utilizes cart display and product display using light box'
-          languages='HTML, CSS, JAVASCRIPT'
-          ghLink='https://github.com/BeeAlmighty/Ecommerce-product-page'
-          webLink='https://ecommerce-product-page-psi-seven.vercel.app/'
-        />
       </div>
     </section>
   )
@@ -55,7 +54,7 @@ const ProjectsDemo = ({ src, projectName, description, languages, ghLink, webLin
       <div className='p-[1rem] flex flex-col gap-[1rem]'>
         <h2 className='text-2xl'>{projectName}</h2>
         <p>{description}</p>
-        <p>{languages}</p>
+        <p className='font-CormorantU uppercase font-extrabold'>{languages}</p>
         <div className='flex gap-2.5'>
           <a href={ghLink} target='_blank' className={`${isDark ? 'hover:text-black text-gray-500' : 'hover:text-white text-gray-400'} duration-200 ease-in`}><FaGithub className='text-[2rem] cursor-pointer'/></a>
           <a href={webLink} target='_blank' className={`${isDark ? 'hover:text-black text-gray-500' : 'hover:text-white text-gray-400'} duration-200 ease-in`}><CgWebsite className='text-[2rem] cursor-pointer'/></a>
